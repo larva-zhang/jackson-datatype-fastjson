@@ -27,7 +27,7 @@
         <version.fastjson>1.2.60</version.fastjson>
         <!-- Generate PackageVersion.java into this directory -->
         <packageVersion.dir>com/github/larva/zhang/jackson/datatype/fastjson</packageVersion.dir>
-        <packageVersion.package>${project.groupId}.jackson.datatype.fastjson</packageVersion.package>
+        <packageVersion.package>com.github.larva.zhang.jackson.datatype.fastjson</packageVersion.package>
     </properties>
 
     <dependencies>
@@ -70,6 +70,9 @@
                     <execution>
                         <id>process-packageVersion</id>
                         <phase>generate-sources</phase>
+                    </execution>
+                    <execution>
+                        <phase>compile</phase>
                     </execution>
                 </executions>
             </plugin>
