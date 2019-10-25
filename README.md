@@ -4,16 +4,27 @@ Project to build [Jackson 2.x](https://github.com/FasterXML/jackson) extension m
 This project largely was created to fill a need in another project where the [Fastjson](https://github.com/alibaba/fastjson) library was being used, and it wasn't feasible to convert to Jackson for everything. The package namespaces were kept as `com.zxl.jackson.datatype.fastjson` because it's not a official module.
 
 ## Usage
+
 ### Maven dependency
-To use module (version 2.x) on Maven-based projects, use following dependency:
+To use module (version 2.x) on Maven-based projects, you should add [jitpack.io](https://jitpack.io) repository at first:
+```xml
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
+``` 
+
+then add following dependency:
 ```xml
 <dependency>
-    <groupId>com.zxl.jackson.datatype</groupId>
+    <groupId>com.github.larva-zhang</groupId>
     <artifactId>jackson-datatype-fastjson</artifactId>
-    <version>2.9.9.3</version>
+    <version>VERSION</version>
 </dependency>
 ```
-(or whatever version is most up-to-date at the moment)
+you can pick the latest version from the [![](https://jitpack.io/v/larva-zhang/jackson-datatype-fastjson.svg)](https://jitpack.io/#larva-zhang/jackson-datatype-fastjson). 
 
 ### Registering module
 
