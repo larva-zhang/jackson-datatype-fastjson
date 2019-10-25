@@ -1,4 +1,4 @@
-package com.zxl.jackson.datatype.fastjson;
+package com.github.larva.zhang.jackson.datatype.fastjson;
 
 import com.alibaba.fastjson.JSONArray;
 import com.fasterxml.jackson.core.JsonParser;

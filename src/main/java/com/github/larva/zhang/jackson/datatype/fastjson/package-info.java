@@ -7,4 +7,3 @@
  *
  * @since 1.6
  */
-package com.zxl.jackson.datatype.fastjson;

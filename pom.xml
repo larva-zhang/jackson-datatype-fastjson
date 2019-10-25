@@ -6,7 +6,7 @@
         <artifactId>oss-parent</artifactId>
         <version>11</version>
     </parent>
-    <groupId>com.zxl.jackson.datatype</groupId>
+    <groupId>com.github.larva-zhang</groupId>
     <artifactId>jackson-datatype-fastjson</artifactId>
     <packaging>jar</packaging>
     <name>Jackson-datatype-fastjson</name>
@@ -15,19 +15,19 @@
     <description>Support for datatypes of "com.alibaba.fastjson" JSON library (see https://github.com/alibaba/fastjson),
         mainly to make it easier to upgrade code to Jackson, using automated conversions.
     </description>
-    <url>https://github.com/zhanghan0031/jackson-datatype-fastjson</url>
+    <url>https://github.com/larva-zhang/jackson-datatype-fastjson</url>
     <scm>
-        <connection>scm:git:git@github.com:zhanghan0031/jackson-datatype-fastjson.git</connection>
-        <developerConnection>scm:git:git@github.com:zhanghan0031/jackson-datatype-fastjson.git</developerConnection>
-        <url>https://github.com/zhanghan0031/jackson-datatype-fastjson</url>
+        <connection>scm:git:git@github.com:larva-zhang/jackson-datatype-fastjson.git</connection>
+        <developerConnection>scm:git:git@github.com:larva-zhang/jackson-datatype-fastjson.git</developerConnection>
+        <url>https://github.com/larva-zhang/jackson-datatype-fastjson</url>
         <tag>HEAD</tag>
     </scm>
     <properties>
         <version.jackson>2.9.9.3</version.jackson>
         <version.fastjson>1.2.60</version.fastjson>
         <!-- Generate PackageVersion.java into this directory -->
-        <packageVersion.dir>com/zxl/jackson/datatype/fastjson</packageVersion.dir>
-        <packageVersion.package>${project.groupId}.fastjson</packageVersion.package>
+        <packageVersion.dir>com/github/larva/zhang/jackson/datatype/fastjson</packageVersion.dir>
+        <packageVersion.package>${project.groupId}.jackson.datatype.fastjson</packageVersion.package>
     </properties>
 
     <dependencies>

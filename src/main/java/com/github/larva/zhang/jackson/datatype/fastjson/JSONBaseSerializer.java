@@ -1,4 +1,4 @@
-package com.zxl.jackson.datatype.fastjson;
+package com.github.larva.zhang.jackson.datatype.fastjson;
 
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
 
