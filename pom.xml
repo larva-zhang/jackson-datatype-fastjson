@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <name>Jackson-datatype-fastjson</name>
     <!-- same as depend jackson-databind version -->
-    <version>2.9.10</version>
+    <version>2.9.10.1</version>
     <description>Support for datatypes of "com.alibaba.fastjson" JSON library (see https://github.com/alibaba/fastjson),
         mainly to make it easier to upgrade code to Jackson, using automated conversions.
     </description>
