@@ -23,7 +23,7 @@
         <tag>HEAD</tag>
     </scm>
     <properties>
-        <version.jackson>2.10.0.pr1</version.jackson>
+        <version.jackson>2.12.6.1</version.jackson>
         <version.fastjson>1.2.62</version.fastjson>
         <!-- Generate PackageVersion.java into this directory -->
         <packageVersion.dir>com/github/larva/zhang/jackson/datatype/fastjson</packageVersion.dir>
